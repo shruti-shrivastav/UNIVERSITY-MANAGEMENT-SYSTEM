@@ -1042,17 +1042,17 @@ def main():
     frame_photo1.pack(side=LEFT)
     label_photo_2.grid(row=0,column=1)
 
-    frame_photo2=Frame(root)
-    photo_3=PhotoImage(file="vp2.png")
-    label_photo_3=Label(frame_photo2,image=photo_3)
-    frame_photo2.pack(side=RIGHT)
-    label_photo_3.grid(row=0,column=1)
+    # frame_photo2=Frame(root)
+    # photo_3=PhotoImage(file="vp2.png")
+    # label_photo_3=Label(frame_photo2,image=photo_3)
+    # frame_photo2.pack(side=RIGHT)
+    # label_photo_3.grid(row=0,column=1)
 
     label_text1=Label(frame_photo1,text="Director of UDL - Meme Gurl")
     label_text1.grid(row=1,column=1)
 
-    label_text2=Label(frame_photo2,text="Vice Principal of UDL - Wants Boobs")
-    label_text2.grid(row=1,column=1)
+    # label_text2=Label(frame_photo2,text="Vice Principal of UDL - Wants Boobs")
+    # label_text2.grid(row=1,column=1)
 
     root.mainloop()
 if __name__=="__main__":
